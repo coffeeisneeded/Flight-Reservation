@@ -1,0 +1,657 @@
+.mediaViewInfo {
+	--web-view-name: recep;
+	--web-view-id: recep;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: recep;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#recep {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: recep;
+	--web-view-id: recep;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+
+#Rectangle {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle {
+	position: absolute;
+	overflow: visible;
+	width: 1286px;
+	height: 865px;
+	left: 311.099px;
+	top: 105.006px;
+}
+#Rectangle_x {
+	fill: rgba(215,26,33,1);
+	stroke: rgba(215,26,33,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_x {
+	position: absolute;
+	overflow: visible;
+	width: 1718px;
+	height: 8px;
+	left: 103px;
+	top: 513.915px;
+}
+#Rectangle_y {
+	fill: rgba(215,26,33,1);
+	stroke: rgba(215,26,33,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_y {
+	position: absolute;
+	overflow: visible;
+	width: 1718px;
+	height: 8px;
+	left: 103px;
+	top: 264.068px;
+}
+#Rectangle_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1069px;
+	height: 165px;
+	left: 421px;
+	top: 321px;
+}
+#From_Abu_Dhabi_to_th {
+	left: 336px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 360px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: MLingWaiMedium-SC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#Rectangle_2 {
+	fill: rgba(215,26,33,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 1069px;
+	height: 32px;
+	left: 421px;
+	top: 321px;
+}
+#Rectangle_ {
+	fill: rgba(215,26,33,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_ {
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	height: 127px;
+	left: 163px;
+	top: 119px;
+}
+#E-Ticket_Receipt__I {
+	left: 630px;
+	top: 156px;
+	position: absolute;
+	overflow: visible;
+	width: 508px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Passenger_MOUNGYOO {
+	left: 102.779px;
+	top: 287.765px;
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Devanagari MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#From {
+	left: 496.321px;
+	top: 331.092px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Devanagari MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#From_ {
+	left: 684.321px;
+	top: 330.092px;
+	position: absolute;
+	overflow: visible;
+	width: 17px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Devanagari MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Flight {
+	left: 891.223px;
+	top: 330.092px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Devanagari MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Departure {
+	left: 1104.494px;
+	top: 327.746px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Devanagari MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#BANGKOK_SUVARNABHUMI {
+	left: 429.542px;
+	top: 365.473px;
+	position: absolute;
+	overflow: visible;
+	width: 164px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#LONDON_HEATHROW_AIRP {
+	left: 622.309px;
+	top: 365.473px;
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#TG_001 {
+	left: 880.287px;
+	top: 369.01px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#ID0325_17OCT2020 {
+	left: 1104.06px;
+	top: 359.759px;
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Class_First_Seat_1 {
+	left: 467px;
+	top: 443px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Operated_by_911_Air {
+	left: 618px;
+	top: 420px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+#NVB_17OCT2020_NVA {
+	left: 844px;
+	top: 424px;
+	position: absolute;
+	overflow: visible;
+	width: 133px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+#PAYMENT_DETAILS {
+	left: 103px;
+	top: 538px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_bh {
+	fill: rgba(215,26,33,1);
+	stroke: rgba(215,26,33,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_bh {
+	position: absolute;
+	overflow: visible;
+	width: 1718px;
+	height: 8px;
+	left: 103px;
+	top: 1047px;
+}
+#Rectangle_bi {
+	fill: rgba(215,26,33,1);
+	stroke: rgba(215,26,33,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_bi {
+	position: absolute;
+	overflow: visible;
+	width: 1718px;
+	height: 8px;
+	left: 103px;
+	top: 839.751px;
+}
+#barcode {
+	position: absolute;
+	width: 294px;
+	height: 88px;
+	left: 1423px;
+	top: 108.5px;
+	overflow: visible;
+}
+#ID12_123_12_12_1 {
+	left: 1501.271px;
+	top: 196.119px;
+	position: absolute;
+	overflow: visible;
+	width: 163px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Arrival {
+	left: 1348.036px;
+	top: 327.746px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Devanagari MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#ID1225_17OCT2020 {
+	left: 1345.566px;
+	top: 365.759px;
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#FARE_THB_8931500_P {
+	left: 442px;
+	top: 608px;
+	position: absolute;
+	overflow: visible;
+	width: 403px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times-Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(0,0,0,1);
+}
+#DONT_MISS_YOUR_FLIG {
+	left: 103px;
+	top: 867px;
+	position: absolute;
+	overflow: visible;
+	width: 270px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID90_-_GET_TO_THE_AIRP {
+	left: 442px;
+	top: 936px;
+	position: absolute;
+	overflow: visible;
+	width: 1141px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_bq {
+	fill: rgba(51,51,51,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_bq {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 93px;
+	left: 0px;
+	top: -0.5px;
+}
+#ali {
+	position: absolute;
+	width: 599px;
+	height: 73px;
+	left: 1222px;
+	top: 4px;
+	overflow: visible;
+}
+#Rectangle_bs {
+	fill: rgba(215,26,33,1);
+	stroke: rgba(215,26,33,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_bs {
+	position: absolute;
+	overflow: visible;
+	width: 242px;
+	height: 92px;
+	left: 179px;
+	top: 0.5px;
+	--web-animation: fadein 0.4s ease-out;
+	--web-action-type: page;
+	--web-action-target: first.html;
+	cursor: pointer;
+}
+#Eiei {
+	left: 241.525px;
+	top: 4.074px;
+	position: absolute;
+	overflow: visible;
+	width: 131.017px;
+	height: 88px;
+	text-align: left;
+	font-family: Emirates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(255,255,255,1);
+}
+#Eiei_bu {
+	left: 208.334px;
+	top: 146.41px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Emirates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 63px;
+	color: rgba(255,255,255,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 164px;
+	left: 604.5px;
+	top: 321.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 1069.006px;
+	height: 8px;
+	left: 421.5px;
+	top: 416.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 164px;
+	left: 794.5px;
+	top: 321.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 164px;
+	left: 1027.5px;
+	top: 321.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 164px;
+	left: 1257.5px;
+	top: 322.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Seat_1A {
+	left: 1093px;
+	top: 441px;
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	height: 27px;
+	text-align: left;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Baggage_50_kg {
+	left: 1307px;
+	top: 439px;
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	height: 31px;
+	text-align: left;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}

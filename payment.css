@@ -1,0 +1,949 @@
+.mediaViewInfo {
+	--web-view-name: payment;
+	--web-view-id: payment;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: payment;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#payment {
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: payment;
+	--web-view-id: payment;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle {
+	fill: rgba(246,246,246,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle {
+	position: absolute;
+	overflow: visible;
+	width: 1236px;
+	height: 865px;
+	left: 621px;
+	top: 54px;
+}
+#Rectangle_u {
+	fill: rgba(246,246,246,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_u {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 987px;
+	left: 0px;
+	top: 93px;
+}
+#Make_a_booking {
+	left: 123px;
+	top: 116px;
+	position: absolute;
+	overflow: visible;
+	width: 219px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#Review_your_selectio {
+	left: 123px;
+	top: 176px;
+	position: absolute;
+	overflow: visible;
+	width: 236px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_x {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_x {
+	position: absolute;
+	overflow: visible;
+	width: 1104px;
+	height: 323px;
+	left: 409px;
+	top: 230px;
+}
+#Rectangle_y {
+	fill: rgba(51,51,51,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_y {
+	position: absolute;
+	overflow: visible;
+	width: 1104px;
+	height: 47px;
+	left: 409px;
+	top: 553px;
+}
+#Rectangle_z {
+	fill: rgba(239,239,239,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_z {
+	position: absolute;
+	overflow: visible;
+	width: 1104px;
+	height: 297px;
+	left: 409px;
+	top: 636px;
+}
+#Visa-Logo {
+	position: absolute;
+	width: 80px;
+	height: 45px;
+	left: 573px;
+	top: 670px;
+	overflow: visible;
+}
+#Buttons__Radio_Button__Off_-_I {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 444px;
+	top: 684px;
+	overflow: visible;
+}
+#Base {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,0.2);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Base {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 16px;
+	left: -6px;
+	top: -6px;
+}
+#Buttons__Radio_Button__Off_-_I_ {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 690px;
+	top: 685px;
+	overflow: visible;
+}
+#Base_ {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,0.2);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Base_ {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 16px;
+	left: -6px;
+	top: -6px;
+}
+#ID1280px-Mastercard-logosvg {
+	position: absolute;
+	width: 76px;
+	height: 48px;
+	left: 721px;
+	top: 666px;
+	overflow: visible;
+}
+#amex {
+	position: absolute;
+	width: 47px;
+	height: 48px;
+	left: 467px;
+	top: 668px;
+	overflow: visible;
+}
+#Buttons__Radio_Button__On_-_In {
+	position: absolute;
+	width: 10px;
+	height: 12px;
+	left: 550px;
+	top: 684px;
+	overflow: visible;
+}
+#Base_ba {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,0.2);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Base_ba {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 16px;
+	left: -6px;
+	top: -4px;
+}
+#Glyph {
+	fill: rgba(0,0,0,1);
+}
+.Glyph {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 2px;
+	top: 3px;
+}
+#Rectangle_ba {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_ba {
+	position: absolute;
+	overflow: visible;
+	width: 1072px;
+	height: 216px;
+	left: 424px;
+	top: 297px;
+}
+#Flights_View_your_fl {
+	left: 425px;
+	top: 237px;
+	position: absolute;
+	overflow: visible;
+	width: 231px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+#For_1_passenger_-_in {
+	left: 425px;
+	top: 269px;
+	position: absolute;
+	overflow: visible;
+	width: 464px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Total_THB_89_315 {
+	left: 1374px;
+	top: 253px;
+	position: absolute;
+	overflow: visible;
+	width: 124px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times-Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_be {
+	fill: rgba(247,247,247,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_be {
+	position: absolute;
+	overflow: visible;
+	width: 1072px;
+	height: 69px;
+	left: 424px;
+	top: 444px;
+}
+#Sat_17_Oct_20 {
+	left: 466px;
+	top: 323px;
+	position: absolute;
+	overflow: visible;
+	width: 82px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Suvarnabhumi_Interna {
+	left: 461px;
+	top: 397px;
+	position: absolute;
+	overflow: visible;
+	width: 164px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#London_Heathrow_Airp {
+	left: 909px;
+	top: 393px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Sat_17_Oct_20_bi {
+	left: 913px;
+	top: 323px;
+	position: absolute;
+	overflow: visible;
+	width: 82px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Class__Fare_type {
+	left: 1254px;
+	top: 343px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#First {
+	left: 1293px;
+	top: 370px;
+	position: absolute;
+	overflow: visible;
+	width: 27px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Change_fees_No_charg {
+	left: 461px;
+	top: 469px;
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Choose_credit_cards {
+	left: 425px;
+	top: 644px;
+	position: absolute;
+	overflow: visible;
+	width: 151px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Card_number {
+	left: 449px;
+	top: 729px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Cardholders_first_n {
+	left: 449px;
+	top: 816px;
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Cardholders_last_na {
+	left: 449px;
+	top: 870px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Month {
+	left: 449px;
+	top: 791px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Year {
+	left: 550px;
+	top: 791px;
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#CVV {
+	left: 640px;
+	top: 791px;
+	position: absolute;
+	overflow: visible;
+	width: 27px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Refund_fee {
+	left: 699px;
+	top: 470px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Grand_total {
+	left: 424px;
+	top: 565px;
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#THB_89_315 {
+	left: 1377px;
+	top: 566px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#Baggage_50_kg {
+	left: 844px;
+	top: 464px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#ID15_hrs_0_min {
+	left: 682px;
+	top: 336px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(106,99,99,1);
+}
+#ID0325_1225 {
+	left: 461px;
+	top: 348px;
+	position: absolute;
+	overflow: visible;
+	width: 539px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(0,0,0,1);
+}
+.t1225{
+	padding-left: 26rem;
+	position: relative;
+	bottom: 3.8rem;
+
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(184,178,178,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: square;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 255px;
+	height: 1px;
+	left: 593.5px;
+	top: 373.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#black-plane {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 576px;
+	top: 356px;
+	overflow: visible;
+}
+#black-plane_b {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#black-plane_ca {
+	fill: rgba(184,178,178,1);
+}
+.black-plane_ca {
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 36px;
+	left: 0px;
+	top: 0px;
+}
+#Oval {
+	fill: rgba(255,0,0,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Oval {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 848px;
+	top: 368px;
+}
+#Rectangle_b {
+	fill: rgba(215,26,33,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_b {
+	position: absolute;
+	overflow: visible;
+	width: 193px;
+	height: 49px;
+	left: 1309px;
+	top: 870px;
+}
+#Continue_to_verify {
+	left: 1334px;
+	top: 880px;
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#Rectangle_ca {
+	fill: rgba(216,216,216,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_ca input{
+	position: absolute;
+	overflow: visible;
+	width: 348px;
+	height: 26px;
+	left: 449px;
+	top: 750px;
+}
+#Rectangle_cb {
+	fill: rgba(216,216,216,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_cb input{
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 26px;
+	text-align: center;
+	left: 490px;
+	top: 783px;
+}
+#ID8 input{
+	left: 510px;
+	top: 789px;
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_cc {
+	fill: rgba(216,216,216,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_cc input{
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 26px;
+	text-align: center;
+	left: 580px;
+	top: 783px;
+}
+#Rectangle_cd {
+	fill: rgba(216,216,216,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_cd input{
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 26px;
+	text-align: center;
+	left: 672px;
+	top: 783px;
+}
+#Rectangle_ce {
+	fill: rgba(216,216,216,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_ce input{
+	position: absolute;
+	overflow: visible;
+	width: 348px;
+	height: 26px;
+	left: 449px;
+	top: 837px;
+}
+#Rectangle_cf {
+	fill: rgba(216,216,216,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_cf input{
+	position: absolute;
+	overflow: visible;
+	width: 348px;
+	height: 26px;
+	left: 449px;
+	top: 891px;
+}
+#ID2020 {
+	left: 591px;
+	top: 789px;
+	position: absolute;
+	overflow: visible;
+	width: 26px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#ID555 {
+	left: 686px;
+	top: 789px;
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Chanvit {
+	left: 463px;
+	top: 843px;
+	position: absolute;
+	overflow: visible;
+	width: 42px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Moungyoo {
+	left: 463px;
+	top: 897px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#ID4546_-_3204_-_0044_- {
+	left: 462px;
+	top: 756px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: DevanagariMT-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_ci {
+	fill: rgba(51,51,51,1);
+	stroke: rgba(151,151,151,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_ci {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 93px;
+	left: 0px;
+	top: 0px;
+}
+#ali {
+	position: absolute;
+	width: 599px;
+	height: 73px;
+	left: 1222px;
+	top: 4.5px;
+	overflow: visible;
+}
+#Rectangle_ck {
+	fill: rgba(215,26,33,1);
+	stroke: rgba(215,26,33,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Rectangle_ck {
+	position: absolute;
+	overflow: visible;
+	width: 242px;
+	height: 92px;
+	left: 179px;
+	top: 1px;
+}
+#Eiei {
+	left: 241.525px;
+	top: 4.574px;
+	position: absolute;
+	overflow: visible;
+	width: 131.017px;
+	height: 88px;
+	text-align: left;
+	font-family: Emirates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(255,255,255,1);
+}
+	

@@ -1,0 +1,166 @@
+@font-face{
+    font-family: emirates;
+    src: url(font/emirate.ttf);
+}
+@font-face{
+    font-family: uvn;
+    src: url(font/UVNMangTre.TTF);
+}
+@font-face{
+    font-family: lingwai;
+    src: url(font/LingWaiTC-Medium.ttf);
+}
+body,
+html {
+    height: 100%;
+    font-family: emirates, 'Times New Roman', Times, serif;
+}
+h1{
+    color: black;
+    font-family: emirates, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h5{
+    color:white;
+    text-align: center;
+}
+p{
+    color: black;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: emirates, 'Times New Roman', Times, serif;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #d71a21;
+}
+
+footer:after {
+    color: white;
+    content: "Eiei Flight reservation";
+    font-family: emirates,'Times New Roman', Times, serif;
+
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333333;
+    padding-left: 30px;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 20px;
+    color: white;
+    padding: 15px 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.topnav a.logo {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding: 0;
+}
+
+.topnav  img.right {
+    float: right;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    position: flex;
+    left: 90rem;
+    filter: invert(100%);
+}
+
+.topnav img.ali{
+    width: 20%;
+    float: right;
+    align-content: center;
+    padding-top: 0.2rem;
+    position: absolute;
+    right: 3rem;
+    
+}
+
+.topnav a:hover {
+    background-color: #d71a21;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+.topnav a:hover.logo {
+    font-size: 20px;
+    padding: 0px;
+}
+.wallpaper {
+    background-image: url(image/74fa23bbce62e02f743dec827dc40597.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+/* 
+.wallpaper a {
+    float: center;
+    text-decoration: bold;
+    font-size: 20px;
+    color: white;
+    border: 1px white solid;
+    border-radius: 4px;
+    background-color: #d71a21;
+    padding: 10px;
+}
+
+.wallpaper a:hover {
+    background-color: rgb(211, 96, 96);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: white 1px solid;
+    border-radius: 4px;
+} */
+.wallpaper{
+    text-align: center;
+}
+.wallpaper h1{
+    font-size: 50px;
+}
+.container{
+    background-color: #f6f6f6;
+    position: relative;
+    bottom: 10rem;
+    border-radius: 4px;
+    text-align: center;
+}
+.container tr{
+    font-size: 20px;
+    
+}
+.container td{
+    padding: 0;
+   padding: 30px;
+}
+.container input{
+    width: 20rem;
+    color: black;
+}
+.container input.button{
+    width: 200px;
+    height: 40px;
+    margin-left: 1rem;
+    background-color: #d71a21;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+
+}
+

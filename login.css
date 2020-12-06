@@ -1,0 +1,272 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+div.head img.eiei{
+     /* height:50%; */
+     position: relative;
+     left: 120px;
+    
+}
+div.head h1{
+    /* width: 75rem; */
+    font-size: 50px;
+    font-family: emirates;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: -650px;
+    
+}
+
+div.head h2{
+    /* width: 75rem; */
+    font-size: 70px;
+    font-family: emirates;
+    color: white;
+    position: relative;
+    top: 190px;
+    left: -1065px;
+    
+
+}
+
+div.head img.plane{
+    height: 70%;
+    position: relative;
+    left: 70rem;
+    top: 3rem;
+    
+}
+
+body {
+	/* This was needed because the body has a margin which stops the header bar from being at the top (remove it to see the difference) */
+	margin: 0;
+	height: 100%;
+    width: 100%;
+    background-color: #f6f6f6;
+    font-family: emirates,'Times New Roman', Times, serif;
+}
+
+div.head {
+	width: 100%;
+	padding: 0.5px;
+    /* height: calc(100vh - 5rem); */
+    height: 30%;
+	background-image: url(image/mount.jpg);
+    background-size: 100%;
+	background-color: transparent;
+	background-size: cover;
+    display: flex;
+    background-position: center;
+    
+}
+div.content{
+    height: 45%;
+    width: 100%;
+    background-color:#f6f6f6;
+}
+div.content div.search{
+    position: fixed;
+  top: 32%;
+  left: 10%;
+  border: 1px solid black;
+    width: 80%;
+    height: 30%;
+    background-color: #ffffff;
+}
+div.content div.search div.user{
+    width:30%;
+    height: 17%;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+    top: 2rem;
+    left: 10rem;
+}
+div.content div.search div.user img{
+    width: 30px;
+    position: relative;
+    left: 4rem;
+    top: 1rem;
+    z-index: 1;
+}
+div.content div.search div.user div.username input{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    width: 30.6rem;
+    text-align: center;
+    height: 4rem;
+    /* left: 7rem; */
+    bottom: 33px;
+    font-size: 20px;
+    
+}
+
+div.content div.search div.password {
+    width:30%;
+    height: 17%;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+    top: 1rem;
+    left: 10rem;
+}
+
+div.content div.search div.password img{
+    width: 30px;
+    position: relative;
+    left: 4rem;
+    top: 1rem;
+    z-index: 1;
+}
+div.content div.search div.password input{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 20px;
+    width: 30.6rem;
+    text-align: center;
+    height: 4rem;
+    left: rem;
+    bottom: 33px;
+}
+div.content div.search div.password h5{
+    position: relative;
+    top: -40px;
+    left: 24rem;
+    color: #D71A21;
+}
+div.content div.search div.loginbutton{
+    width: 30%;
+    height: 14%;
+    background-color: #d71a21;
+    position: relative;
+    top: 3rem;
+    left: 10rem;
+    text-decoration: none;
+}
+div.content div.search div.loginbutton h4{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    top: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+div.content div.search div.guest{
+    width: 20%;
+    height: 14%;
+    background-color: #d71a21;
+    position: relative;
+    top: 8.5rem;
+    left: 3rem;
+}
+div.content div.search div.guest a{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    top: 13px;
+    color: white;
+    text-decoration: none;
+    left: 4.3rem;
+}
+div.content div.search div.element{
+    width: 1px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 11.7rem;
+    left: 55rem;
+}
+div.content div.search div.element h1{
+    width: 500px;
+    position: relative;
+    left: 7rem;
+    top: -1rem;
+    text-align: center;
+}
+div.content div.search div.element h2{
+    width: 500px;
+    font-size: 20px;
+    font-weight:lighter ;
+    position: relative;
+    left: 148px;
+    top: -20px;
+}
+div.content div.search div.element h3{ 
+    width: 500px;
+    color: #D71A21;
+    position: relative;
+    top: -2rem;
+    left:147px;
+}
+div.content div.search div.element a{
+    text-decoration: none;
+}
+div.content div.search div.element div.regist{
+    width: 400px;
+    height: 17%;
+    border: 1px solid black;
+    position: relative;
+    left: 10rem;
+    top: 0rem;
+  
+}
+div.content div.search div.element div.regist a{
+    text-decoration: none;
+    color: black;
+}
+/* div.content div.search div.element a{
+    
+} */
+div.content div.search div.element h4{
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    bottom: 19px;
+    text-decoration: none;
+}
+div.foot h4{
+    text-align: center;
+    font-family: emirates, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 20px;
+}
+div.foot h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: emirates, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 20px;
+}
+div.foot h3{
+    text-align: center;
+    font-family: emirates, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 50px;
+}
+div.content div.search input.button{
+    width: 300px;
+    height: 15%;
+    background-color: #D71A21;
+    position: relative;
+    top: 3rem;
+    border: 1px solid white;
+    border-radius: 4px;
+    left: 16rem;
+    color: white;
+    font-size: 25px;
+    font-family: emirates,'Times New Roman', Times, serif;
+
+}
+
+
+@font-face{
+    font-family: emirates;
+    src: url(font/emirate.ttf);
+}

@@ -1,0 +1,344 @@
+/* @import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap'); */
+@font-face{
+    font-family: emirates;
+    src: url(font/emirate.ttf);
+}
+@font-face{
+    font-family: uvn;
+    src: url(font/UVNMangTre.TTF);
+}
+@font-face{
+    font-family: lingwai;
+    src: url(font/LingWaiTC-Medium.ttf);
+}
+/* .fontfam {
+    font-family: 'Playfair Display', serif;
+} */
+
+body,
+html {
+    height: 100%;
+    width:100%;
+    margin:auto;
+    font-family: emirates, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: emirates,'Times New Roman', Times, serif
+}
+
+h1 {
+    font-family: emirates, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60pt;
+    
+}
+
+h2 {
+    font-family: emirates, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    
+}
+h5{
+    font-family: emirates,'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+p{
+    font-family: emirates,'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+footer {
+    border-top: 3px solid white;
+    text-align: center;
+    padding: 1em;
+    background-color: #d71a21;
+}
+
+footer:after {
+    color: white;
+    content: "Eiei Flight reservation";
+    font-family: emirates,'Times New Roman', Times, serif;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333333;
+    padding-left: 30px;
+    
+    position: relative;
+    height:80px;
+}
+
+.topnav p {
+    float: left;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 35px;
+    color: white;
+    /*padding: 15px 10px;*/ 
+    height:20%;
+    margin-right: 10px;
+    left:7em;
+    top:15px;
+    position: relative;
+    margin-left: 0px;
+    font-family: lingwai,cursive,sans-serif;
+    font-weight: 300;
+}
+.topnav a.logo {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding: 0;
+    background-color: red;
+    height: 20%;
+}
+.mainbody
+{
+    width:100%;
+    min-height:700px;
+    overflow: hidden;
+    background-color: rgb(240, 236, 236);
+}
+.head_text
+{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+}
+.head_text .show
+{
+    color:red;
+    font-size: 23px;
+    display:inline-block;
+    position: relative;
+    top:2em;
+    left:21.5em;
+}
+.head_text_left
+{
+    width:50%;
+    margin-right:auto;
+    overflow:hidden;
+    position: relative;
+    right:12em;
+}
+.head_text_left .flight-plan
+{
+    font-size: 23px;
+    position: absolute;
+    top:1em;
+    left:13em;
+         
+}
+.head_text_left .passno
+{
+    font-size: 23px;
+    display:inline-block;
+    position: absolute;
+    top:3em;
+    left:13em;
+
+}
+.head_text_left .searc
+{
+    color:red;
+    font-size: 23px;
+    display:inline-block;
+    position: relative;
+    top:2em;
+    left:21.5em;
+
+    
+}
+.head_text_left .searc:hover
+{
+    color:gray;
+    font-size: 23px;
+    display:inline-block;
+    position: relative;
+    top:2em;
+    right:21.5em;
+
+    
+}
+.head_text_right 
+{
+    width:50%;
+    position: relative;
+}
+.head_text_right .price
+{
+    font-size: 23px;
+    position: absolute;
+    margin-left:20em;
+    padding-top:2em;
+    
+}
+.head_text_right .cur
+{
+    font-size: 23px;
+    position: absolute;
+    margin-left:20em;
+    padding-top:2em;
+    
+}
+.head_text_center
+{
+    width:100%;
+    margin-right:auto;
+    overflow:hidden;
+    position: relative;
+}
+
+.summary
+{   
+    float:right;
+    margin-top: 2.8em;
+    margin-right:6em;
+    background-color: red;
+    width:20%;
+    height:34px;
+    border: 1px solid black;
+    
+}
+.summary:hover
+{   
+    float:right;
+    margin-top: 2.8em;
+    margin-right:6em;
+    background-color: rgb(196, 81, 81);
+    width:20%;
+    height:34px;
+    border: 1px solid black;
+    
+}
+.summary p 
+{
+    text-align: center;
+    color:white;
+    
+}
+.tripsum
+{
+    margin: auto;
+    width: 80%;
+ 
+    padding: 30px;
+}
+.tripsum hr
+{
+    margin-bottom:0;
+    position: relative;
+    top:2.5px;
+}
+table
+{
+    background-color: white;
+    border:2px solid black;
+    
+    
+}
+td{
+    background-color: white;
+    border:2px solid black;
+    text-align: center;
+}
+th
+{
+    border:2px solid black;
+    border-top-style:none;
+    padding-left:20px;
+    
+}
+.topnav .seach_box
+{
+    height:20px;
+    background-color: white;
+}
+.topnav  img.right {
+    float: right;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    position: flex;
+    left: 90rem;
+    filter: invert(100%);
+}
+
+.topnav img.ali{
+    width: 20%;
+    float: right;
+    align-content: center;
+    padding-top: 0.2rem;
+    position: absolute;
+    right: 3rem;
+    
+}
+
+.topnav a:hover {
+    background-color: #d71a21;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+.topnav a:hover.logo {
+    font-size: 20px;
+    padding: 0px;
+}
+
+.wallpaper {
+    background-image: url("image/abu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.wallpaper a {
+    float: center;
+    text-decoration: bold;
+    font-size: 20px;
+    color: white;
+    border: 1px white solid;
+    border-radius: 4px;
+    background-color: #d71a21;
+    padding: 10px;
+}
+
+.wallpaper a:hover {
+    background-color: rgb(211, 96, 96);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: white 1px solid;
+    border-radius: 4px;
+}
+
+.minimizecontent {
+    max-width: 600px;
+    font-size: 15pt;
+}
+
+.center {
+    text-align: center;
+}
+
+.leftpad {
+    margin-left: 30px;
+}
+
+/* BOOKING Page */

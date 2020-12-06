@@ -1,0 +1,139 @@
+@font-face{
+    font-family: emirates;
+    src: url(font/emirate.ttf);
+}
+@font-face{
+    font-family: uvn;
+    src: url(font/UVNMangTre.TTF);
+}
+@font-face{
+    font-family: lingwai;
+    src: url(font/LingWaiTC-Medium.ttf);
+}
+/* .fontfam {
+    font-family: 'Playfair Display', serif;
+} */
+
+body,
+html {
+    height: 100%;
+    font-family: emirates, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: emirates,'Times New Roman', Times, serif
+}
+
+h1 {
+    font-family: emirates, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60pt;
+    
+}
+
+h2 {
+    font-family: emirates, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    
+}
+h5{
+    font-family: emirates,'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+p{
+    font-family: emirates,'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+footer {
+
+    text-align: center;
+    padding: 0.8rem;
+    background-color: #d71a21;
+}
+
+footer:after {
+    color: white;
+    content: "Eiei Flight reservation";
+    font-family: emirates,'Times New Roman', Times, serif;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333333;
+    padding-left: 30px;
+    
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 20px;
+    color: white;
+    padding: 15px 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: emirates,'Times New Roman', Times, serif;
+}
+
+.topnav a.logo {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding: 0;
+}
+
+.topnav  img.right {
+    float: right;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    position: flex;
+    left: 90rem;
+    filter: invert(100%);
+}
+
+.topnav img.ali{
+    width: 20%;
+    float: right;
+    align-content: center;
+    padding-top: 0.2rem;
+    position: absolute;
+    right: 3rem;
+    
+}
+
+.topnav a:hover {
+    background-color: #d71a21;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+.topnav a:hover.logo {
+    font-size: 20px;
+    padding: 0px;
+}
+
+.wallpaper {
+    background-image: url(image/241716-a-view-on-the-gap-between-the-rows-of-airplane-sea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120%;
+    
+}
+.container{
+    background-color: white;
+    height: 30rem;
+   border-radius: 4px;
+    font-size: 35px;
+}

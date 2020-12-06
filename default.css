@@ -1,0 +1,30 @@
+/* button */
+button {
+    background-color: #d71a21;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 20px;
+    display: inline-block;
+    outline: none;
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+    left: 4rem;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* row */
+row {
+    background-color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 100px;
+    height: 20px;
+}
